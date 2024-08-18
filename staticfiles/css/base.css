@@ -1,0 +1,32 @@
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(32, 100, 178);
+}
+
+.bookcover {
+    height: 300px;
+    width: auto;
+    border:1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2;
+    .bookcover:hover ;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
