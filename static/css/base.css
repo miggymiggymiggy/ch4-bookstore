@@ -1,6 +1,16 @@
-h1 {
-    color: red;
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
 }
+
+h1 {
+    color: rgb(168, 49, 49);
+}
+
+h2 {
+    color: rgb(32, 100, 178);
+}
+
 
 .bookcover {
     height: 300px;

@@ -4,12 +4,13 @@ body {
 }
 
 h1 {
-    color: red;
+    color: rgb(168, 49, 49);
 }
 
 h2 {
     color: rgb(32, 100, 178);
 }
+
 
 .bookcover {
     height: 300px;
@@ -30,3 +31,4 @@ h2 {
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
 }
+
