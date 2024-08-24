@@ -1,6 +1,11 @@
 body {
     min-height: 75rem;
     padding-top: 4.5rem;
+    background: linear-gradient(135deg, #f5f7fa 25%, transparent 25%) -50px 0,
+                linear-gradient(225deg, #f5f7fa 25%, transparent 25%) -50px 0,
+                linear-gradient(315deg, #f5f7fa 25%, transparent 25%),
+                linear-gradient(45deg, #f5f7fa 25%, transparent 25%);
+    background-size: 100px 100px;
 }
 
 h1 {
@@ -11,6 +16,20 @@ h2 {
     color: rgb(32, 100, 178);
 }
 
+.images {
+    width: 330px;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid #333;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    margin: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.images:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
 
 .bookcover {
     height: 300px;
@@ -20,26 +39,6 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     transition: transform 0.2;
     .bookcover:hover ;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-{
-    transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
-}
-
-.images {
-    height: 400px;
-    width: auto;
-    border:1px solid #ddd;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    transition: transform 0.2;
-    .images:hover ;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
